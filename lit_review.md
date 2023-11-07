@@ -1,6 +1,9 @@
-# 1. Transfomer Literature Review
+Title: Transfomer Literature Review
 
-## 1.1. Deep Learning
+
+# 1. Introduction
+
+# 2. Deep Learning
 
 A neural network takes an input vector of $p$ variables $X=(X_1, X_2, \dots, X_p)$ and builds a non-linear function $f(X)$ to predict the response $Y$. A (single larger) neural network model as the form
 
@@ -20,7 +23,7 @@ function is nonlinear and typical choices include:
     - (ii) $u  → 1/(1 + e−u)$ (sigmoid).
 
 
-### 1.1.1. Building from single layer [Further explanation ]:
+## 2.1. Building from single layer [Further explanation ]:
 
 Neural networks are a powerful modelling approach that accounts for interactions especially well. A neural network takes an input vector of $p$ variables $X = (X_1,X_2, \dots, X_p)$ and builds a non-linear function $f(X)$ to predict the response $Y$. 
 
@@ -46,18 +49,21 @@ $$f(X) = \beta_0 + \sum_{k=1}^{K} \beta_k A_{k},$$
 a linear regression model in the $$K$$ activations. All the parameters $\beta_0, \dots, \beta_k$ and $w_{10}, \dots, w_{kp}$ need to be estimated from data.
 
 
-## 1.2. Recurrent Neural Networks (RNN)
+# 3. Nueral Network for Sequential Data
+## 3.1. Recurrent Neural Networks (RNN)
 
-### 1.2.1. Rolling 
+## 3.2. Rolling 
 
+## 3.3. Long Short-Term Memmory Network
 
+# 4. Attention and Transformers
 
-## 1.3. Long Short-Term Memmory Network
+## 4.1. Word-Embedding and Word2Vec
 
-## 1.4. Tranformer Architecture
+## 4.2. Positional Encoding
 
-## 1.5. Applications in Quant Research / Financial Markets
+# 5. Applications in Finance, 
 
-### 1.5.1. Deep Learning Applications
+## 5.1. Deep Learning Applications
 
-### 1.5.2. Transformer Applications
+## 5.2. Transformer Applications
